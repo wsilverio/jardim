@@ -10194,11 +10194,11 @@ Source: www.vishay.com .. rwm.pdf</description>
 <part name="SUPPLY10" library="SparkFun-Aesthetics" deviceset="VCC" device=""/>
 <part name="GND12" library="SparkFun-Aesthetics" deviceset="GND" device=""/>
 <part name="C7" library="SparkFun-Capacitors" deviceset="1000UF-25V(PTH)" device="" value="CAP-09538"/>
-<part name="D4" library="SparkFun-DiscreteSemi" deviceset="DIODE" device="KIT2" value="1N4001"/>
 <part name="R28" library="SparkFun-Resistors" deviceset="RESISTOR" device="PTH-1/4W" value="1k"/>
 <part name="D5" library="SparkFun-LED" deviceset="LED" device="3MM"/>
 <part name="SUPPLY11" library="SparkFun-Aesthetics" deviceset="VCC" device=""/>
 <part name="GND13" library="SparkFun-Aesthetics" deviceset="GND" device=""/>
+<part name="D4" library="SparkFun-DiscreteSemi" deviceset="DIODE" device="PTH" value="1N4007"/>
 </parts>
 <sheets>
 <sheet>
@@ -10313,11 +10313,11 @@ Source: www.vishay.com .. rwm.pdf</description>
 <instance part="SUPPLY10" gate="G$1" x="281.94" y="5.08"/>
 <instance part="GND12" gate="1" x="281.94" y="-7.62"/>
 <instance part="C7" gate="G$1" x="480.06" y="60.96"/>
-<instance part="D4" gate="G$1" x="472.44" y="78.74" rot="R270"/>
 <instance part="R28" gate="G$1" x="492.76" y="66.04" rot="R180"/>
 <instance part="D5" gate="G$1" x="500.38" y="60.96"/>
 <instance part="SUPPLY11" gate="G$1" x="53.34" y="20.32" rot="MR0"/>
 <instance part="GND13" gate="1" x="53.34" y="-12.7" rot="MR0"/>
+<instance part="D4" gate="G$1" x="472.44" y="78.74" rot="R270"/>
 </instances>
 <busses>
 </busses>
@@ -11050,11 +11050,11 @@ Source: www.vishay.com .. rwm.pdf</description>
 <wire x1="472.44" y1="66.04" x2="480.06" y2="66.04" width="0.1524" layer="91"/>
 <pinref part="C7" gate="G$1" pin="+"/>
 <wire x1="480.06" y1="66.04" x2="480.06" y2="63.5" width="0.1524" layer="91"/>
-<pinref part="D4" gate="G$1" pin="C"/>
 <wire x1="472.44" y1="76.2" x2="472.44" y2="66.04" width="0.1524" layer="91"/>
 <pinref part="R28" gate="G$1" pin="2"/>
 <wire x1="487.68" y1="66.04" x2="480.06" y2="66.04" width="0.1524" layer="91"/>
 <junction x="480.06" y="66.04"/>
+<pinref part="D4" gate="G$1" pin="C"/>
 </segment>
 </net>
 <net name="N$1" class="0">
@@ -11474,8 +11474,8 @@ Source: www.vishay.com .. rwm.pdf</description>
 <net name="N$7" class="0">
 <segment>
 <pinref part="J5" gate="G$1" pin="2"/>
-<pinref part="D4" gate="G$1" pin="A"/>
 <wire x1="472.44" y1="83.82" x2="472.44" y2="81.28" width="0.1524" layer="91"/>
+<pinref part="D4" gate="G$1" pin="A"/>
 </segment>
 </net>
 <net name="N$84" class="0">

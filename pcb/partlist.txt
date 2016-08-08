@@ -1,0 +1,75 @@
+Partlist
+
+Exported from jardim.sch at 8/8/16 10:14 AM
+
+EAGLE Version 7.6.0 Copyright (c) 1988-2016 CadSoft
+
+Assembly variant: 
+
+Part     Value                 Device                   Package                Library                    Sheet
+
+C1       10uF                  CAP_POLPTH2              CPOL-RADIAL-10UF-25V   SparkFun-Capacitors        1
+C2       100nF                 0.1UF-50V-20%(PTH)KIT-EZ CAP-PTH-SMALL-KIT      SparkFun-Capacitors        1
+C3       10uF                  CAP_POLPTH2              CPOL-RADIAL-10UF-25V   SparkFun-Capacitors        1
+C4       100nF                 0.1UF-50V-20%(PTH)KIT-EZ CAP-PTH-SMALL-KIT      SparkFun-Capacitors        1
+C5       22pF                  CAPKIT                   CAP-PTH-SMALL-KIT      SparkFun-Capacitors        1
+C6       22pF                  CAPKIT                   CAP-PTH-SMALL-KIT      SparkFun-Capacitors        1
+C7       CAP-09538             1000UF-25V(PTH)          CPOL-RADIAL-1000UF-25V SparkFun-Capacitors        1
+D1       1N4001                DIODEKIT2                DIODE-1N4001-KIT       SparkFun-DiscreteSemi      1
+D2                             LED3MM                   LED3MM                 SparkFun-LED               1
+D3                             LED3MM                   LED3MM                 SparkFun-LED               1
+D4       1N4007                DIODEPTH                 DIODE-1N4001           SparkFun-DiscreteSemi      1
+D5                             LED3MM                   LED3MM                 SparkFun-LED               1
+IC1      74LS595N              74LS595N                 DIL16                  SparkFun-DigitalIC         1
+IC2      74LS595N              74LS595N                 DIL16                  SparkFun-DigitalIC         1
+IC3      74LS595N              74LS595N                 DIL16                  SparkFun-DigitalIC         1
+J1       Power In              M025MM                   SCREWTERMINAL-5MM-2    SparkFun-Connectors        1
+J2       Power Select          M03PTH                   1X03                   SparkFun-Connectors        1
+J3       USB to Serial         M06SILK_FEMALE_PTH       1X06                   SparkFun-Connectors        1
+J4       C485                  M025MM                   SCREWTERMINAL-5MM-2    SparkFun-Connectors        1
+J5       Power LED             M025MM                   SCREWTERMINAL-5MM-2    SparkFun-Connectors        1
+J6       Mode Select           M03PTH                   1X03                   SparkFun-Connectors        1
+R1       470R                  RESISTORPTH-1/4W         AXIAL-0.4              SparkFun-Resistors         1
+R2       470R                  RESISTORPTH-1/4W         AXIAL-0.4              SparkFun-Resistors         1
+R3       10k                   RESISTORPTH-1/4W         AXIAL-0.4              SparkFun-Resistors         1
+R4                             RCA4080                  CA4080                 resistor-power             1
+R5                             RCA4080                  CA4080                 resistor-power             1
+R6                             RCA4080                  CA4080                 resistor-power             1
+R7                             RCA4080                  CA4080                 resistor-power             1
+R8                             RCA4080                  CA4080                 resistor-power             1
+R9                             RCA4080                  CA4080                 resistor-power             1
+R10                            RCA4080                  CA4080                 resistor-power             1
+R11                            RCA4080                  CA4080                 resistor-power             1
+R12                            RCA4080                  CA4080                 resistor-power             1
+R13                            RCA4080                  CA4080                 resistor-power             1
+R14                            RCA4080                  CA4080                 resistor-power             1
+R15                            RCA4080                  CA4080                 resistor-power             1
+R16                            RCA4080                  CA4080                 resistor-power             1
+R17                            RCA4080                  CA4080                 resistor-power             1
+R18                            RCA4080                  CA4080                 resistor-power             1
+R19                            RCA4080                  CA4080                 resistor-power             1
+R20                            RCA4080                  CA4080                 resistor-power             1
+R21                            RCA4080                  CA4080                 resistor-power             1
+R22                            RCA4080                  CA4080                 resistor-power             1
+R23                            RCA4080                  CA4080                 resistor-power             1
+R24                            RCA4080                  CA4080                 resistor-power             1
+R25                            RCA4080                  CA4080                 resistor-power             1
+R26                            RCA4080                  CA4080                 resistor-power             1
+R27                            RCA4080                  CA4080                 resistor-power             1
+R28      1k                    RESISTORPTH-1/4W         AXIAL-0.4              SparkFun-Resistors         1
+S1       SWITCH-MOMENTARY-2PTH SWITCH-MOMENTARY-2PTH    TACTILE-PTH            SparkFun-Electromechanical 1
+U$1      MAX485DIL             MAX485DIL                DIL08                  SparkFun-DigitalIC         1
+U1       ATMEGA328P_PDIP       ATMEGA328P_PDIP          DIL28-3                SparkFun-DigitalIC         1
+U2       7805                  V_REG_78XX-TO-220        TO-220-ALT             SparkFun-PowerIC           1
+ULN1                           ULN2803DIP               DIL18                  SparkFun-PowerIC           1
+ULN2                           ULN2803DIP               DIL18                  SparkFun-PowerIC           1
+ULN3                           ULN2803DIP               DIL18                  SparkFun-PowerIC           1
+X1                             W237-4                   W237-4                 con-wago-500               1
+X2                             W237-4                   W237-4                 con-wago-500               1
+X3                             W237-4                   W237-4                 con-wago-500               1
+X4                             W237-4                   W237-4                 con-wago-500               1
+X5                             W237-4                   W237-4                 con-wago-500               1
+X6                             W237-4                   W237-4                 con-wago-500               1
+X7                             W237-4                   W237-4                 con-wago-500               1
+X8                             W237-4                   W237-4                 con-wago-500               1
+Y1       16MHz                 CRYSTALHC49US            HC49US                 SparkFun-FreqCtrl          1
